@@ -7,3 +7,26 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+section.landing {
+  height: 100vh;
+
+  position: relative;
+}
+
+section.landing h1 {
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section.menu {
+  background-color: #000;
+  background-image: url('./images/background-by-matt-bango-stocksnap-A1MWQJDC12.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
