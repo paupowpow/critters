@@ -30,3 +30,28 @@ section.menu {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.menu-link {
+  position: absolute;
+}
+
+.menu-link#ladybug {
+  left: 33%;
+  top: 34%;
+  transform: rotate(35deg);
+}
+
+.menu-link#butterfly {
+  left: 74%;
+  top: 57%;
+  transform: rotate(146deg);
+}
+
+.menu-link#fly {
+  left: 66%;
+  top: 43%;
+  transform: rotate(-26deg);
+}
+
+.menu-link:hover {
+}
